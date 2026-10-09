@@ -1,0 +1,5 @@
+full_name = input("Enter your full name")
+name = " ".join(full_name.split())
+name = name.lower()
+username = name.replace(" ","_")
+print("username:", username)
